@@ -1,22 +1,10 @@
-# main links links
+# Top navigation bar
 main:
   - title: "Publications"
-    url: https://scholar.google.com/citations?user=25Vx5UIAAAAJ&hl=en
-
-  # - title: "Talks"
-  #   url: /talks/    
+    url: /publications/
 
   - title: "Teaching"
-    url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
+    url: /teaching/
+
   - title: "CV"
-    url: /files/HangLi_MSU.pdf
-    
-  # - title: "Guide"
-  #   url: /markdown/
+    url: /cv/

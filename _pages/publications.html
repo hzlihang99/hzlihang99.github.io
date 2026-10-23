@@ -1,0 +1,50 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% assign pubs = site.data.publications %}
+{% assign review = pubs | where: "venue", "Under review" %}
+{% assign n_conf = pubs | where: "type", "conference" | size %}
+{% assign n_jour = pubs | where: "type", "journal" | size %}
+
+<p class="pub-intro">
+  {{ n_conf }} conference papers, {{ n_jour }} journal articles, plus workshop papers, a book chapter, a tutorial and preprints.
+  * denotes equal contribution. See also <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</p>
+
+<p class="pub-legend">
+  <span class="pub__badge pub__badge--conference">Conference</span>
+  <span class="pub__badge pub__badge--journal">Journal</span>
+  <span class="pub__badge pub__badge--workshop">Workshop</span>
+  <span class="pub__badge pub__badge--chapter">Book Chapter</span>
+  <span class="pub__badge pub__badge--preprint">Preprint</span>
+</p>
+
+<h2 class="pub-year">Under Review</h2>
+<ul class="pub-list">
+  {% for p in review %}{% include pub-item.html pub=p %}{% endfor %}
+</ul>
+
+{% assign years = pubs | map: "year" | uniq %}
+{% for y in years %}
+<h2 class="pub-year">{{ y }}</h2>
+<ul class="pub-list">
+  {% for p in pubs %}{% if p.year == y and p.venue != "Under review" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+</ul>
+{% endfor %}
+
+<h2 class="pub-year">Patents</h2>
+<ul class="pub-list">
+  <li class="pub">
+    <span class="pub__badge pub__badge--patent">US Patent</span>
+    <div class="pub__body">
+      <div class="pub__title">Speaker Recognition Method, Electronic Device, and Storage Medium</div>
+      <div class="pub__authors"><strong>Hang Li</strong>, Wenbiao Ding, Zitao Liu</div>
+      <div class="pub__venue">US11676609B2, granted December 2022</div>
+      <div class="pub__links"><a href="https://patents.google.com/patent/US11676609B2">Google Patents</a></div>
+    </div>
+  </li>
+</ul>

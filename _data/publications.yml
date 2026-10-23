@@ -1,0 +1,385 @@
+# Single source of truth for publications.
+# Rendered on the home page (selected: true), /publications/ and /cv/.
+#
+# Fields
+#   title, authors, venue (full name), short (badge label), year
+#   type:      conference | journal | workshop | chapter | tutorial | preprint
+#   selected:  true -> also shown on the home page
+#   arxiv:     arXiv id (optional);  url / code: optional links
+#   note:      optional highlight (e.g. "Oral", "Best Paper")
+# Write "Hang Li" in authors; it is bolded automatically. "*" = equal contribution.
+
+# ---------- Under review ----------
+- title: "Rubric Optimization for LLM-Based Automated Grading with Data Synthesis"
+  authors: "Hang Li, Kaiqi Yang, Yucheng Chu, Yue Xing, Hui Liu"
+  venue: "Under review"
+  short: "Preprint"
+  year: 2026
+  type: preprint
+
+- title: "Planner-Guided Recursive Exploration for Diffusion Language Model Decoding"
+  authors: "Yingqian Cui, Wei Deng, Lantao Mei, Hang Li, Charu C. Aggarwal, Hui Liu, Yue Xing"
+  venue: "Under review"
+  short: "Preprint"
+  year: 2026
+  type: preprint
+
+- title: "RubricWorld: World Model-Guided Rubric Optimization for LLM Graders"
+  authors: "Hongji Pu, Hang Li, Yucheng Chu, Jiliang Tang"
+  venue: "Under review"
+  short: "Preprint"
+  year: 2026
+  type: preprint
+
+- title: "How Uncertain Is the Grade? A Benchmark of Uncertainty Metrics for LLM-Based Automatic Assessment"
+  authors: "Kaiqi Yang, Hang Li, Xianxuan Long, Fedor Filippov, Yucheng Chu, Yasemin Copur-Gencturk, Peng He, Cory Susanne Miller, Namsoo Shin, Joseph Krajcik, Hui Liu"
+  venue: "Under review"
+  short: "Preprint"
+  year: 2026
+  type: preprint
+  arxiv: "2602.16039"
+
+# ---------- 2026 ----------
+- title: "MEMO: Memory-Guided Error Momentum for Prompt Optimization in Long-Context Reasoning"
+  authors: "Hang Li, Yichi Zhang, Chenyang Zhu, Anoop Kumar, Daben Liu"
+  venue: "NeurIPS Workshop on Test-time Continual Learning Agents"
+  short: "NeurIPS Workshop"
+  year: 2026
+  type: workshop
+
+- title: "Exploring Solution Divergence and Its Effect on Large Language Model Problem Solving"
+  authors: "Hang Li, Kaiqi Yang, Yucheng Chu, Hui Liu, Jiliang Tang"
+  venue: "Findings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  short: "EMNLP Findings"
+  year: 2026
+  type: conference
+  selected: true
+  arxiv: "2509.22480"
+
+- title: "“**Important** You Should Give Me Full Credits!”: Exploring Prompt Injection Attacks on LLM-Based Automatic Grading Systems"
+  authors: "Hang Li, Fedor Filippov, Yuling Lin, Pengfei He, Kaiqi Yang, Yucheng Chu, Yingqian Cui, Hui Liu, Jiliang Tang"
+  venue: "Findings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  short: "EMNLP Findings"
+  year: 2026
+  type: conference
+  selected: true
+  arxiv: "2606.03090"
+
+- title: "i-VIP: A LLM-Driven Multi-Agent System for Professional Development of Mathematics Teachers"
+  authors: "Hang Li, Kaiqi Yang, Yucheng Chu, Ahreum Han, Rui Meng, Yasemin Copur-Gencturk, Hui Liu"
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  short: "AIED"
+  year: 2026
+  type: conference
+  selected: true
+  note: "Oral"
+
+- title: "Optimizing In-Context Demonstrations for LLM-Based Automated Grading"
+  authors: "Yucheng Chu, Hang Li, Kaiqi Yang, Yasemin Copur-Gencturk, Kevin Haudek, Joseph Krajcik, Namsoo Shin, Jiliang Tang"
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  short: "AIED"
+  year: 2026
+  type: conference
+  note: "Oral"
+
+- title: "Confusion-Aware Rubric Optimization for LLM-Based Automated Grading"
+  authors: "Yucheng Chu, Hang Li, Kaiqi Yang, Yasemin Copur-Gencturk, Joseph Krajcik, Namsoo Shin, Jiliang Tang"
+  venue: "International Conference on Educational Data Mining (EDM)"
+  short: "EDM"
+  year: 2026
+  type: conference
+  arxiv: "2603.00451"
+
+- title: "ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models via Error Detection"
+  authors: "Yibo Yan, Shen Wang, Jiahao Huo, Hang Li, Boyan Li, Jiamin Su, Xiong Gao, Yifan Zhang, Tianlong Xu, Zhendong Chu, et al."
+  venue: "Findings of the Association for Computational Linguistics (ACL)"
+  short: "ACL Findings"
+  year: 2026
+  type: conference
+  arxiv: "2410.04509"
+
+- title: "Reasoning by Exploration: A Unified Approach to Retrieval and Generation over Graphs"
+  authors: "Haoyu Han, Kai Guo, Harry Shomer, Yu Wang, Yucheng Chu, Hang Li, Li Ma, Jiliang Tang"
+  venue: "Proceedings of the ACM Web Conference (WWW)"
+  short: "WWW"
+  year: 2026
+  type: conference
+
+- title: "Designing Professional Development in Mathematics Teacher Education with AI as a Facilitator: A Roadmap Grounded in High-Quality Professional Development Features"
+  authors: "Nickolina Yankova, Jinhyo Cho, Hang Li, Kaiqi Yang, Yasemin Copur-Gencturk, Jiliang Tang"
+  venue: "Journal of Mathematics Teacher Education (JMTE)"
+  short: "JMTE"
+  year: 2026
+  type: journal
+  url: "https://link.springer.com/article/10.1007/s10857-026-09776-9"
+
+- title: "Automated Coding of Content and Pedagogical Content Knowledge of Mathematics Using a Multi-Agent Large Language Model"
+  authors: "Yasemin Copur-Gencturk, Kyle Moreno, Yucheng Chu, Hang Li, Jiliang Tang"
+  venue: "ZDM – Mathematics Education"
+  short: "ZDM"
+  year: 2026
+  type: journal
+
+- title: "Beyond Partisan Leaning: A Comparative Analysis of Political Bias in Large Language Models"
+  authors: "Tai-Quan Peng, Kaiqi Yang, Sanguk Lee, Hang Li, Yucheng Chu, Yuping Lin, Hui Liu"
+  venue: "Journal of Information Technology & Politics"
+  short: "JITP"
+  year: 2026
+  type: journal
+  arxiv: "2412.16746"
+
+- title: "From Flat to Structural: Enhancing Automated Short Answer Grading with GraphRAG"
+  authors: "Yucheng Chu, Haoyu Han, Shen Dong, Hang Li, Kaiqi Yang, Yasemin Copur-Gencturk, Joseph Krajcik, Namsoo Shin, Hui Liu"
+  venue: "arXiv preprint"
+  short: "Preprint"
+  year: 2026
+  type: preprint
+  arxiv: "2603.19276"
+
+# ---------- 2025 ----------
+- title: "LLM-Based Automated Grading with Human-in-the-Loop"
+  authors: "Hang Li, Yucheng Chu, Kaiqi Yang, Yasemin Copur-Gencturk, Jiliang Tang"
+  venue: "IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)"
+  short: "TALE"
+  year: 2025
+  type: conference
+
+- title: "Iterative LLM-Based Generation and Refinement of Distracting Conditions in Math Word Problems"
+  authors: "Kaiqi Yang, Hang Li, Yucheng Chu, Zitao Liu, Mi Tian, Hui Liu"
+  venue: "IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)"
+  short: "TALE"
+  year: 2025
+  type: conference
+
+- title: "Human-AI Collaboration for Knowledge-in-Use Assessment Design: Leveraging LLMs with RAG"
+  authors: "Juanhui Li, Tingting Li, Hang Li, Haoyu Han, Pengfei He, Peng He, Hui Liu"
+  venue: "IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)"
+  short: "TALE"
+  year: 2025
+  type: conference
+
+- title: "Ask-Before-Detection: Identifying and Mitigating Conformity Bias in LLM-Powered Error Detector for Math Word Problem Solutions"
+  authors: "Hang Li, Tianlong Xu, Kaiqi Yang, Yucheng Chu, Yanling Chen, Yichi Song, Qingsong Wen, Hui Liu"
+  venue: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)"
+  short: "ACL"
+  year: 2025
+  type: conference
+  selected: true
+
+- title: "Knowledge Tagging with Large Language Model Based Multi-Agent System"
+  authors: "Hang Li, Tianlong Xu, Ethan Chang, Qingsong Wen"
+  venue: "Proceedings of the 37th Annual Conference on Innovative Applications of Artificial Intelligence (IAAI)"
+  short: "IAAI"
+  year: 2025
+  type: conference
+  selected: true
+  note: "Innovative Application Award"
+
+- title: "Large Language Models for Education: A Survey and Outlook"
+  authors: "Shen Wang*, Tianlong Xu*, Hang Li*, Chaoli Zhang, Joleen Liang, Jiliang Tang, Philip S. Yu, Qingsong Wen"
+  venue: "IEEE Signal Processing Magazine (SPM)"
+  short: "IEEE SPM"
+  year: 2025
+  type: journal
+  selected: true
+  arxiv: "2403.18105"
+  note: "500+ citations"
+
+- title: "A LLM-Powered Automatic Grading Framework with Human-Level Guidelines Optimization"
+  authors: "Yucheng Chu*, Hang Li*, Kaiqi Yang, Harry Shomer, Hui Liu, Yasemin Copur-Gencturk, Jiliang Tang"
+  venue: "International Conference on Educational Data Mining (EDM)"
+  short: "EDM"
+  year: 2025
+  type: conference
+  selected: true
+  arxiv: "2410.02165"
+
+- title: "Enhancing LLM-Based Short Answer Grading with Retrieval-Augmented Generation"
+  authors: "Yucheng Chu, Peng He, Hang Li, Haoyu Han, Kaiqi Yang, Yu Xue, Tingting Li, Joseph Krajcik, Jiliang Tang"
+  venue: "International Conference on Educational Data Mining (EDM)"
+  short: "EDM"
+  year: 2025
+  type: conference
+  arxiv: "2504.05276"
+
+- title: "Leverage LLMs on Knowledge Tagging for Math Questions in Education"
+  authors: "Hang Li, Tianlong Xu, Qingsong Wen"
+  venue: "Future of Learning with Large Language Models, CRC Press"
+  short: "Book Chapter"
+  year: 2025
+  type: chapter
+
+- title: "Bringing Generative Artificial Intelligence (GenAI) to Education"
+  authors: "Hang Li, Kaiqi Yang, Yucheng Chu, Jiliang Tang"
+  venue: "International Conference on Educational Data Mining (EDM)"
+  short: "EDM Tutorial"
+  year: 2025
+  type: tutorial
+
+- title: "From Correctness to Comprehension: AI Agents for Personalized Error Diagnosis in Education"
+  authors: "Yi-Fan Zhang, Hang Li, Dingjie Song, Lichao Sun, Tianlong Xu, Qingsong Wen"
+  venue: "arXiv preprint"
+  short: "Preprint"
+  year: 2025
+  type: preprint
+  arxiv: "2502.13789"
+
+# ---------- 2024 ----------
+- title: "Sub-graph Based Diffusion Model for Link Prediction"
+  authors: "Hang Li, Wei Jin, Geri Skenderi, Harry Shomer, Wenzhuo Tang, Wenqi Fan, Jiliang Tang"
+  venue: "Learning on Graphs Conference (LoG)"
+  short: "LoG"
+  year: 2024
+  type: conference
+  arxiv: "2409.08487"
+
+- title: "Graph-Level Representation Learning with Joint-Embedding Predictive Architectures"
+  authors: "Geri Skenderi, Hang Li, Jiliang Tang, Marco Cristani"
+  venue: "Transactions on Machine Learning Research (TMLR)"
+  short: "TMLR"
+  year: 2024
+  type: journal
+  arxiv: "2309.16014"
+
+- title: "Exploring the Potential of Large Language Models (LLMs) in Learning on Graphs"
+  authors: "Zhikai Chen, Haitao Mao, Hang Li, Wei Jin, Hongzhi Wen, Xiaochi Wei, Shuaiqiang Wang, Dawei Yin, Wenqi Fan, Hui Liu, Jiliang Tang"
+  venue: "ACM SIGKDD Explorations Newsletter"
+  short: "SIGKDD Explor."
+  year: 2024
+  type: journal
+  selected: true
+  arxiv: "2307.03393"
+  note: "450+ citations"
+
+- title: "Content Knowledge Identification with Multi-Agent Large Language Models (LLMs)"
+  authors: "Kaiqi Yang, Yucheng Chu, Taylor Darwin, Ahreum Han, Hang Li, Hongzhi Wen, Yasemin Copur-Gencturk, Jiliang Tang, Hui Liu"
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  short: "AIED"
+  year: 2024
+  type: conference
+
+- title: "Are Large Language Models (LLMs) Good Social Predictors?"
+  authors: "Kaiqi Yang, Hang Li, Hongzhi Wen, Tai-Quan Peng, Jiliang Tang, Hui Liu"
+  venue: "Findings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  short: "EMNLP Findings"
+  year: 2024
+  type: conference
+
+- title: "Knowledge Tagging System on Math Questions via LLMs with Flexible Demonstration Retriever"
+  authors: "Hang Li, Tianlong Xu, Jiliang Tang, Qingsong Wen"
+  venue: "arXiv preprint"
+  short: "Preprint"
+  year: 2024
+  type: preprint
+  arxiv: "2406.13885"
+
+- title: "Automate Knowledge Concept Tagging on Math Questions with LLMs"
+  authors: "Hang Li, Tianlong Xu, Jiliang Tang, Qingsong Wen"
+  venue: "arXiv preprint"
+  short: "Preprint"
+  year: 2024
+  type: preprint
+  arxiv: "2403.17281"
+
+- title: "Bringing Generative AI to Adaptive Learning in Education"
+  authors: "Hang Li, Tianlong Xu, Chaoli Zhang, Eason Chen, Jing Liang, Xing Fan, Haoyang Li, Jiliang Tang, Qingsong Wen"
+  venue: "arXiv preprint"
+  short: "Preprint"
+  year: 2024
+  type: preprint
+  arxiv: "2402.14601"
+
+# ---------- 2023 and earlier ----------
+- title: "Generative Diffusion Models on Graphs: Methods and Applications"
+  authors: "Wenqi Fan, Chengyi Liu, Yunqing Liu, Jiatong Li, Hang Li, Hui Liu, Jiliang Tang, Qing Li"
+  venue: "Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI)"
+  short: "IJCAI"
+  year: 2023
+  type: conference
+  arxiv: "2302.02591"
+
+- title: "A General Single-Cell Analysis Framework via Conditional Diffusion Generative Models"
+  authors: "Wenzhuo Tang, Renming Liu, Hongzhi Wen, Xinnan Dai, Jiayuan Ding, Hang Li, Wenqi Fan, Yuying Xie, Jiliang Tang"
+  venue: "bioRxiv preprint"
+  short: "Preprint"
+  year: 2023
+  type: preprint
+  url: "https://www.biorxiv.org/content/10.1101/2023.10.13.562243"
+
+- title: "Self-Supervised Audio-and-Language Pre-training with Extremely Low-Resource Parallel Data"
+  authors: "Yu Kang, Tianqiao Liu, Hang Li, Yang Hao, Wenbiao Ding, Zitao Liu"
+  venue: "Proceedings of the 36th AAAI Conference on Artificial Intelligence (AAAI)"
+  short: "AAAI"
+  year: 2022
+  type: conference
+
+- title: "CTAL: Pre-training Cross-modal Transformer for Audio-and-Language Representations"
+  authors: "Hang Li, Yu Kang, Tianqiao Liu, Wenbiao Ding, Zitao Liu"
+  venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  short: "EMNLP"
+  year: 2021
+  type: conference
+  selected: true
+
+- title: "Mathematical Word Problem Generation from Commonsense Knowledge Graph and Equations"
+  authors: "Tianqiao Liu, Qiang Fang, Wenbiao Ding, Hang Li, Zhongqin Wu, Zitao Liu"
+  venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  short: "EMNLP"
+  year: 2021
+  type: conference
+
+- title: "Learning Fine-Grained Multimodal Alignment for Speech Emotion Recognition"
+  authors: "Hang Li, Wenbiao Ding, Zhongqin Wu, Zitao Liu"
+  venue: "Annual Conference of the International Speech Communication Association (INTERSPEECH)"
+  short: "INTERSPEECH"
+  year: 2021
+  type: conference
+
+- title: "A Multimodal Machine Learning Framework for Teacher Vocal Delivery Evaluation"
+  authors: "Hang Li, Yu Kang, Yang Hao, Wenbiao Ding, Zhongqin Wu, Zitao Liu"
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  short: "AIED"
+  year: 2021
+  type: conference
+
+- title: "Multi-Task Learning Based Online Dialogic Instruction Detection with Pre-trained Language Models"
+  authors: "Yang Hao, Hang Li, Wenbiao Ding, Zhongqin Wu, Zitao Liu"
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  short: "AIED"
+  year: 2021
+  type: conference
+
+- title: "An Educational System for Personalized Teacher Recommendation in K-12 Online Classrooms"
+  authors: "Jiahao Chen, Hang Li, Wenbiao Ding, Zhongqin Wu, Zitao Liu"
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  short: "AIED"
+  year: 2021
+  type: conference
+
+- title: "Identifying At-Risk K-12 Students in Multimodal Online Environments: A Machine Learning Approach"
+  authors: "Hang Li, Wenbiao Ding, Songfan Yang, Zitao Liu"
+  venue: "International Conference on Educational Data Mining (EDM)"
+  short: "EDM"
+  year: 2020
+  type: conference
+
+- title: "Siamese Neural Networks for Class Activity Detection"
+  authors: "Hang Li, Zhiwei Wang, Jiliang Tang, Wenbiao Ding, Zitao Liu"
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  short: "AIED"
+  year: 2020
+  type: conference
+
+- title: "Multimodal Learning for Classroom Activity Detection"
+  authors: "Hang Li, Yu Kang, Wenbiao Ding, Song Yang, Songfan Yang, Gale Yan Huang, Zitao Liu"
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  short: "ICASSP"
+  year: 2020
+  type: conference
+
+- title: "A Multimodal Alerting System for Online Class Quality Assurance"
+  authors: "Jiahao Chen, Hang Li, Wenxin Wang, Wenbiao Ding, Gale Yan Huang, Zitao Liu"
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  short: "AIED"
+  year: 2019
+  type: conference

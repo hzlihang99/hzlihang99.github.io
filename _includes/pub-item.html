@@ -1,0 +1,14 @@
+{%- comment -%} Renders one entry of _data/publications.yml. Usage: include pub-item.html pub=p {%- endcomment -%}
+{%- assign p = include.pub -%}
+{%- if p.arxiv -%}{%- capture link -%}https://arxiv.org/abs/{{ p.arxiv }}{%- endcapture -%}{%- else -%}{%- assign link = p.url -%}{%- endif -%}
+<li class="pub">
+<span class="pub__badge pub__badge--{{ p.type }}">{{ p.short }}{% if p.type != "preprint" and p.type != "chapter" %} {{ p.year }}{% endif %}</span>
+<div class="pub__body">
+<div class="pub__title">{% if link %}<a href="{{ link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+<div class="pub__authors">{{ p.authors | replace_first: "Hang Li", "<strong>Hang Li</strong>" }}</div>
+<div class="pub__venue"><em>{{ p.venue }}</em>{% if p.venue != "Under review" %}, {{ p.year }}{% endif %}{% if p.note %} <span class="pub__note">{{ p.note }}</span>{% endif %}</div>
+{%- if p.arxiv or p.url or p.code %}
+<div class="pub__links">{% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv</a><a href="https://arxiv.org/pdf/{{ p.arxiv }}">PDF</a>{% endif %}{% if p.url %}<a href="{{ p.url }}">Paper</a>{% endif %}{% if p.code %}<a href="{{ p.code }}">Code</a>{% endif %}</div>
+{%- endif %}
+</div>
+</li>
